@@ -1,0 +1,20 @@
+prefix: "&7[&6&lAutoTrash&7]&r"
+messages:
+  console-cannot-use-command: "{prefix} &cYou cannot use this command from the console."
+  no-permission: "{prefix} &cYou do not have permission to use this command."
+
+admin:
+  commands:
+    reload:
+      success: "{prefix} &aSuccessfully reloaded the AutoTrash configuration."
+    help:
+    - "{prefix} &7AutoTrash Commands:"
+    - "{prefix} &7- &6/autotrash add <permission>&7- Add the item in your hand to the AutoTrash list."
+    - "{prefix} &7- &6/autotrash list &7- List all items in the AutoTrash list."
+    - "{prefix} &7- &6/autotrash reload &7- Reload the AutoTrash configuration."
+  messages:
+    console-cannot-use-command: "{prefix} &cYou cannot use this command from the console."
+  addItem:
+    no-item-in-hand: "{prefix} &cYou must be holding an item to add it to the AutoTrash list."
+    success: "{prefix} &aSuccessfully added item to the AutoTrash list."
+    usage: "{prefix} &cUsage: /autotrash add <permission>"

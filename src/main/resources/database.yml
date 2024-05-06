@@ -1,0 +1,8 @@
+## This is the database that you want to use
+schemas:
+  trashable-items:
+    host: localhost
+    port: 3306
+    database: trashableitems
+    username: root
+    password: password

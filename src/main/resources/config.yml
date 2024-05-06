@@ -1,0 +1,6 @@
+commands:
+  admin:
+    permission: 'autotrash.admin'
+
+settings:
+  confirm-delete: true
