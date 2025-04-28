@@ -6,6 +6,9 @@
 
 AutotTrash is a versatile and customizable Automatic Trash system for Minecraft 1.14 to 1.20.4 servers. It provides a simple to use approuch to permission based item removal!
 
+For most updated build you can use the Jenkins Build.
+https://jenkins.pizzalover.dev/job/AutoTrash/
+
 ## Features
 
 - **Custom Item Support**: Since the plugin encodes the itemstack into Base64, any custom items will work and all it's data is saved. Making any custom item work!
